@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 40dp 见方 + 20dp 圆角 = 正圆。RemoteViews 里没法用 CircleShape，只能靠 shape drawable 凑。 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/care_primary_soft" />
+    <corners android:radius="20dp" />
+</shape>

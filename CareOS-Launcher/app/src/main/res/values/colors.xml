@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 与画布上的 CareOS-Color 变量一一对应，改色只改这一处 -->
+    <color name="care_bg">#FBF7F2</color>
+    <color name="care_surface">#FFFFFF</color>
+    <color name="care_primary">#E05A1E</color>
+    <color name="care_primary_dark">#B84512</color>
+    <color name="care_primary_soft">#FCEEDF</color>
+    <color name="care_call_green">#0A8F4D</color>
+    <color name="care_wechat_green">#07C160</color>
+    <color name="care_hangup_red">#D93026</color>
+    <color name="care_text_primary">#1F1B16</color>
+    <color name="care_text_secondary">#5C554C</color>
+    <color name="care_border">#E8E0D4</color>
+    <color name="care_track">#F2EDE6</color>
+</resources>

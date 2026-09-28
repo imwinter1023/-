@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">夕阳红桌面</string>
+
+    <string name="widget_label">一键拨打</string>
+    <string name="widget_description">桌面组件：点一下就能给家人打电话或发起微信视频</string>
+
+    <string name="action_call">打电话</string>
+    <string name="action_wechat_video">微信视频</string>
+    <string name="action_accept">接听</string>
+    <string name="action_decline">拒接</string>
+
+    <!-- 三个家人位的默认名字，也就是"关系"。用户挑完通讯录后会替换成真实姓名。 -->
+    <string name="slot_default_name">儿子</string>
+    <string name="slot_default_name_2">女儿</string>
+    <string name="slot_default_name_3">老伴</string>
+
+    <!-- 桌面组件配置页 -->
+    <string name="widget_config_title">这个组件给哪位家人？</string>
+    <string name="widget_config_hint">选好之后，桌面组件上点一下就拨给他</string>
+</resources>

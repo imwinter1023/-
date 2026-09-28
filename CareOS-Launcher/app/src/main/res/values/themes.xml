@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 桌面主体：暖白底 + 深色状态栏图标 -->
+    <style name="Theme.CareOS" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/care_bg</item>
+        <item name="android:statusBarColor">@color/care_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/care_bg</item>
+    </style>
+
+    <!-- 来电页：绿底通铺，状态栏也染成绿，图标转白 -->
+    <style name="Theme.CareOS.FullScreen" parent="Theme.CareOS">
+        <item name="android:windowBackground">@color/care_call_green</item>
+        <item name="android:statusBarColor">@color/care_call_green</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/care_call_green</item>
+    </style>
+
+    <!-- 跳板 Activity：完全透明，用户看不到它存在 -->
+    <style name="Theme.CareOS.Trampoline" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+</resources>

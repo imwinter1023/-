@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  桌面组件的规格说明。
+  minWidth / minHeight 用 dp 表达"占几格"：72dp ≈ 1 格。
+  所以 250dp×110dp ≈ 4 格宽 × 2 格高 —— 够放一行身份信息 + 两个大按钮。
+  targetCellWidth / targetCellHeight 是 Android 12+ 的精确表达，低版本会忽略。
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.careos.launcher.widget.WidgetConfigureActivity"
+    android:description="@string/widget_description"
+    android:initialLayout="@layout/widget_call"
+    android:minHeight="110dp"
+    android:minWidth="250dp"
+    android:previewLayout="@layout/widget_call"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellHeight="2"
+    android:targetCellWidth="4"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen" />
